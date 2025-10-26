@@ -108,7 +108,7 @@ DATABASES = {
         'NAME': 'startuphub_db',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
-        'HOST': 'localhost',  # use 'db' if Django is also in Docker
+        'HOST': 'db',  # use 'db' if Django is also in Docker
         'PORT': '5432',
     }
 }
